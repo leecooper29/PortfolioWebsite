@@ -7,6 +7,7 @@ import Header from "./header";
 
 function HomePage() {
   // Data for the components
+  // changes
 
   const education = [
     {
