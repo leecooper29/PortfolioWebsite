@@ -22,7 +22,6 @@ export function EducationSection({ education }: EducationSectionProps) {
             <p className="bl">
               {edu.degree} | {edu.institution}
             </p>
-            <hr></hr>
             {edu.field && (
               <p>
                 {edu.field} | {edu.graduationDate}

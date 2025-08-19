@@ -3,7 +3,10 @@ interface SkillsListProps {
   title?: string;
 }
 
-export function SkillsList({ skills, title = "Programming Knowledge" }: SkillsListProps) {
+export function SkillsList({
+  skills,
+  title = "Programming Knowledge",
+}: SkillsListProps) {
   return (
     <div className="item-1">
       <h2>{title}</h2>

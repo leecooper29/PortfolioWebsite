@@ -17,10 +17,6 @@ h2 {
   font-weight: bold;
 }
 
-h3 {
-  margin-top: 1rem;
-}
-
 .main-grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
