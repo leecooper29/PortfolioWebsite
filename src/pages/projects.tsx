@@ -1,7 +1,6 @@
 import image1 from "../assets/Screenshot 2025-08-17 at 3.46.00 PM.png";
 import image2 from "../assets/Screenshot 2025-08-17 at 3.50.20 PM.png";
 import image3 from "../assets/Screenshot 2025-08-17 at 5.59.35 PM.png";
-import image4 from "../assets/Screenshot 2025-08-17 at 8.27.22 PM.png";
 import Header from "./header";
 import "./projects.css";
 
@@ -29,7 +28,8 @@ function ProjectsPage() {
                 skills you wont learn in college
               </p>
               <p>Vite + React</p>
-              <img alt="placeholder text" src={image4} className="pt"></img>
+              <img alt="placeholder-image"></img>
+              {/* <img alt="placeholder text" src={image4} className="pt"></img> */}
             </div>
             <div className="project-item">
               <p className="title-text">Multi Step Form</p>

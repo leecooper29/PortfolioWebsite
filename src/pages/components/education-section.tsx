@@ -24,7 +24,7 @@ export function EducationSection({ education }: EducationSectionProps) {
             </p>
             {edu.field && (
               <p>
-                {edu.field} | {edu.graduationDate}
+                * {edu.field} | {edu.graduationDate}
               </p>
             )}
             {edu.honors && <p>{edu.honors}</p>}

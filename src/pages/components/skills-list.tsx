@@ -13,7 +13,7 @@ export function SkillsList({
       <nav className="skills-list">
         <ul>
           {skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
+            <li key={index}> * {skill}</li>
           ))}
         </ul>
       </nav>
