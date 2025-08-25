@@ -5,16 +5,24 @@ function Header() {
   return (
     <>
       <header>
-        <div>
+        <div className="logo">
           <h1>LEE COOPER</h1>
         </div>
-        <div>
+        <div className="nav">
           <nav className="nav-list">
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-              <li><Link to="/collaboration">Collaboration</Link></li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/collaboration">Collaboration</Link>
+              </li>
             </ul>
           </nav>
         </div>

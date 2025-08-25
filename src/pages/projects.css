@@ -32,3 +32,15 @@ h2 {
   font-weight: bold;
   font-size: 18px;
 }
+
+@media screen and (max-width: 888px) {
+  .featured-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-item {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+}

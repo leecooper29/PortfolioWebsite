@@ -39,8 +39,8 @@ function CollaborationPage() {
               </p>
             </div>
           </div>
-          <div className="">
-            <form className="contact-form">
+          <div className="form-container">
+            <form className="contact-form" methods="POST">
               <h4>Connect with Me</h4>
               <div className="form-item">
                 <label>First Name:</label>

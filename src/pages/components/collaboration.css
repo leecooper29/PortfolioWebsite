@@ -10,10 +10,9 @@ h4 {
   font-weight: bold;
 }
 
-.contact-form {
+.form-container .contact-form {
   display: flex;
   flex-direction: column;
-  background: #edebea;
   margin: 1rem;
   padding: 1rem;
   width: 400px;
@@ -40,4 +39,20 @@ input {
   border: 1px solid black;
   /* border-radius: 12px; */
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 712xp) {
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

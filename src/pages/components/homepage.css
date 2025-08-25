@@ -80,3 +80,16 @@ h2 {
 .bt {
   margin: 0.5rem 0;
 }
+
+@media screen and (max-width: 888px) {
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/*  --- IGNORE --- */
