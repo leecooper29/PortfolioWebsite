@@ -3,6 +3,9 @@ import Header from "./header";
 import { SkillsList } from "./components/skills-list";
 
 function AboutPage() {
+  const skills = ["Html/Css/JavaScript", , "Sql", "Python", "Java"];
+  const frameworks = ["ReactJS", "NodeJS", "ExpressJS", "Flask", "Django"];
+
   return (
     <>
       <Header />

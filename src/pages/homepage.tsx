@@ -25,8 +25,6 @@ function HomePage() {
     },
   ];
 
-  const skills = ["Html/Css/JavaScriptj", "ReactJS", "Sql", "Python"];
-
   return (
     <>
       <Header />
