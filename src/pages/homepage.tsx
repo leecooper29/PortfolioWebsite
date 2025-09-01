@@ -41,14 +41,14 @@ function HomePage() {
             <ExperienceSection
               experiences={[
                 {
-                  company: "Noble Lawn and Shrub Care",
+                  company: "Landscape Company",
                   period: "2023 - 2024",
                   description:
                     // bullet point
                     "Worked as a landscape designer with knowledge in airating, mowing, triming, and plant care. I also had to make sure that the clients needs satisfied base on the work that was done.",
                 },
                 {
-                  company: "Mow Green",
+                  company: "Landscape Company",
                   period: "2021 - 2022",
                   description:
                     // bullet point
