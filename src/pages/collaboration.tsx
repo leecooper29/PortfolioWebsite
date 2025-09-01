@@ -13,7 +13,7 @@ function CollaborationPage() {
       <div className="collaboration-page">
         <div className="collaboration-container">
           <div className="contact-info">
-            <h2>Get In Touch</h2>
+            <h2>Contact Me</h2>
             <p>
               Ready to collaborate? I'm excited to hear about your ideas and
               explore how we can work together to create something amazing.

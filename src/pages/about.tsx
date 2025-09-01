@@ -1,5 +1,6 @@
 import "./components/about.css";
 import Header from "./header";
+import { SkillsList } from "./components/skills-list";
 
 function AboutPage() {
   return (
@@ -28,6 +29,9 @@ function AboutPage() {
               to grow in a fast-paced, innovative environment.
             </p>
           </article>
+        </div>
+        <div id="skills" className="skills">
+          <SkillsList skills={skills} />
         </div>
       </section>
     </>

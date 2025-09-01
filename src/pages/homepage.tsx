@@ -25,7 +25,7 @@ function HomePage() {
     },
   ];
 
-  const skills = ["Html", "Css", "Javascript", "ReactJS", "Sql", "Python"];
+  const skills = ["Html/Css/JavaScriptj", "ReactJS", "Sql", "Python"];
 
   return (
     <>
@@ -59,9 +59,9 @@ function HomePage() {
           </div>
           <EducationSection education={education} />
         </div>
-        <div id="skills" className="skills">
+        {/* <div id="skills" className="skills">
           <SkillsList skills={skills} />
-        </div>
+        </div> */}
       </section>
     </>
   );

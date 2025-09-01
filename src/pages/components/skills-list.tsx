@@ -5,7 +5,7 @@ interface SkillsListProps {
 
 export function SkillsList({
   skills,
-  title = "Programming Knowledge",
+  title = "Programming Languages",
 }: SkillsListProps) {
   return (
     <div className="item-1">
@@ -17,6 +17,7 @@ export function SkillsList({
           ))}
         </ul>
       </nav>
+      {/* comment here */}
     </div>
   );
 }
