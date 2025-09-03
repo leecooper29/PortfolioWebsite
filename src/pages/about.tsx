@@ -1,10 +1,10 @@
 import "./components/about.css";
-import Header from "./header";
 import { SkillsList } from "./components/skills-list";
+import Header from "./header";
 
 function AboutPage() {
-  const skills = ["Html/Css/JavaScript", , "Sql", "Python", "Java"];
-  const frameworks = ["ReactJS", "NodeJS", "ExpressJS", "Flask", "Django"];
+  const skills = ["Html/Css/JavaScript", "ReactJS", "Sql", "Python", "Java"];
+  const frameworks = [, "NodeJS", "ExpressJS", "Flask", "Django"];
 
   return (
     <>

@@ -12,7 +12,7 @@ function HomePage() {
   const education = [
     {
       degree: "Bachelor of Science",
-      institution: "UCONN STAMFORD",
+      institution: "Uconn Stamford",
       field: "Computer Science",
       graduationDate: "Spring 2027",
     },

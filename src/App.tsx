@@ -4,7 +4,7 @@ import AboutPage from "./pages/about";
 import CollaborationPage from "./pages/collaboration";
 import HomePage from "./pages/homepage";
 import ProjectsPage from "./pages/projects";
-// use cursor on other pc to swtich project from typescript to javascript
+// using tailwind for styling (will implement later)
 
 function App() {
   return (

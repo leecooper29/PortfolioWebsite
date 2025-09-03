@@ -44,3 +44,15 @@ h2 {
     margin-bottom: 1rem;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .featured-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .project-item {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+}
